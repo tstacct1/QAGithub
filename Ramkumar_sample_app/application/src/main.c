@@ -89,10 +89,12 @@ void print_build_info(char *app_name)
 int64_t repeat_tsk(void * user_arg)
 {
     (void)user_arg;
-    for (uint8_t i = 0; i < 5; i++)
+    for (uint8_t i = 0; i < 20; i++)
     {
-        printf("Repeat RamKumar %u\n", i);
+        if(i%2==0){
+        printf("Repeat Own Application Build for Even Numbers %u\n", i);
         R_OSAL_ThreadSleepForTimePeriod(1000);
+        }
     }
     return 0;
 }
