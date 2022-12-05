@@ -1,0 +1,23 @@
+{
+    "catalogVersion": "0.0.0",
+    "sampleApplications": {
+       "rcar.application.Ramkumar_sample_app": {
+            "name": "RAMKUMAR sample",
+            "description": "RAMKUMAR Sample application",
+            "devices": [
+                "*"
+            ],
+            "location": "rivp_codec_enc_dec_sample_app",
+            "summary": "rivp_codec_enc_dec_sample_app/readme.txt"
+        },
+        "rcar.application.userdefined": {
+            "name": "User-defined application",
+            "description": "Select this item to work with an application which is not contained in this catalog",
+            "devices": [
+                "*"
+            ],
+            "location": "../tools/e2studio/user_defined_cmake_project",
+            "summary": "../tools/e2studio/user_defined_cmake_project/readme.txt"
+        }
+    }
+}
