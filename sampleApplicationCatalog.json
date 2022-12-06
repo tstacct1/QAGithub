@@ -7,8 +7,8 @@
             "devices": [
                 "*"
             ],
-            "location": "rivp_codec_enc_dec_sample_app",
-            "summary": "rivp_codec_enc_dec_sample_app/readme.txt"
+            "location": "ramkumar_sample_app",
+            "summary": "ramkumar_sample_app/readme.txt"
         },
         "rcar.application.userdefined": {
             "name": "User-defined application",
